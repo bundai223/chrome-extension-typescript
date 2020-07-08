@@ -2,7 +2,7 @@
 
 Typescript Chrome Extension Skeleton
 
-## log
+## How to reproduce
 
 ```bash
 npm init
