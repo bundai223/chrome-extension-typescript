@@ -24,9 +24,11 @@ const config: ConfigurationFactory = () => {
       extensions: ['ts', 'js']
     },
     plugins: [
-      new CopyWebpackPlugin([
-        { from: 'public', to: '.' }
-      ])
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: 'public', to: '.' }
+        ]
+      })
     ]
   }
 }
